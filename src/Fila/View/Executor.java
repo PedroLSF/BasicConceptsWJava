@@ -1,11 +1,11 @@
-package View;
+package Fila.View;
 
 import java.util.Scanner;
-import Filas.*;
+import Fila.Filas.*;
 
 public class Executor {
 	public static void main(String[] args) {
-		int capacidade
+		int capacidade;
 
 		try (Scanner scan = new Scanner(System.in)) {
 			capacidade = scan.nextInt();
